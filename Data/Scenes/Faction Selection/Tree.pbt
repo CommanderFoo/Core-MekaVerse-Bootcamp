@@ -304,6 +304,7 @@ Objects {
   ParentId: 9186456235849773726
   ChildIds: 10141441443511112603
   ChildIds: 10468818330767701788
+  ChildIds: 1297759590423591203
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -344,6 +345,111 @@ Objects {
       TargetAnchor {
         Anchor {
           Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1297759590423591203
+  Name: "Play Button"
+  Transform {
+    Location {
+      X: -251.36174
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10487329362743042134
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Control {
+    Width: 400
+    Height: 100
+    UIY: -150
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    IsHittable: true
+    Button {
+      Label: "PLAY"
+      FontColor {
+        A: 0.679
+      }
+      FontSize: 26
+      ButtonColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.362000018
+      }
+      HoveredColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.525000036
+      }
+      PressedColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.525000036
+      }
+      DisabledColor {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      Brush {
+        Id: 427588298344820597
+      }
+      IsButtonEnabled: true
+      ClickMode {
+        Value: "mc:ebuttonclickmode:default"
+      }
+      Font {
+        Id: 567713083737213773
+      }
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      VerticalJustification {
+        Value: "mc:everticaljustification:center"
+      }
+      ShadowColor {
+        A: 1
+      }
+      ShadowOffset {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
@@ -1383,6 +1489,12 @@ Objects {
       Name: "cs:FactionWeapons"
       AssetReference {
         Id: 15936607426547326340
+      }
+    }
+    Overrides {
+      Name: "cs:PlayButton"
+      ObjectReference {
+        SelfId: 1297759590423591203
       }
     }
   }

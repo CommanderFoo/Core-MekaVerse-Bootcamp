@@ -15,7 +15,12 @@ local FACTION_TEXT = script:GetCustomProperty("FactionText"):WaitForObject()
 ---@type UIText
 local WEAPON_TEXT = script:GetCustomProperty("WeaponText"):WaitForObject()
 
+local PLAY_BUTTON = script:GetCustomProperty("PlayButton"):WaitForObject()
+
 local LOCAL_PLAYER = Game.GetLocalPlayer()
+
+Input.DisableAction("Shoot")
+Input.DisableAction("Aim")
 
 local selected_faction = 0
 local buttons = FACTIONS:GetChildren()
@@ -40,8 +45,12 @@ local function display_faction_menu()
 end
 
 local function on_faction_pressed(button, faction_index)
+	if PLAY_BUTTON.visibility == Visibility.FORCE_OFF then
+		PLAY_BUTTON.visibility = Visibility.INHERIT
+	end
+	
 	FACTION_TEXT.text = button.text
-
+	
 	if(selected_faction ~= faction_index) then
 		clear_active_button(selected_faction)
 		set_active_button(faction_index, button.text)
@@ -57,3 +66,8 @@ for index, button in ipairs(buttons) do
 end
 
 Events.Connect("FactionCamera", display_faction_menu)
+
+PLAY_BUTTON.pressedEvent:Connect(function(button)
+	local factionKey = buttons[selected_faction].text
+	Events.BroadcastToServer("SwitchScene", factionKey)
+end)

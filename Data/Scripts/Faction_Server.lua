@@ -2,6 +2,13 @@ local FACTION_WEAPONS = require(script:GetCustomProperty("FactionWeapons"))
 
 local players = {}
 
+local function switch_scene(player, faction_key)
+	local data = Storage.GetPlayerData(player)
+	data.factionKey = faction_key
+	Storage.SetPlayerData(player, data)
+	player:TransferToScene("Team Deathmatch")
+end
+
 local function select_faction(player, faction_key)
 	local row = FACTION_WEAPONS[faction_key]
 
@@ -39,4 +46,5 @@ end
 Game.playerJoinedEvent:Connect(on_player_joined)
 Game.playerLeftEvent:Connect(on_player_left)
 
+Events.ConnectForPlayer("SwitchScene", switch_scene)
 Events.ConnectForPlayer("SelectFaction", select_faction)

@@ -1,5 +1,5 @@
 Assets {
-  Id: 11331393291726449420
+  Id: 11237267171393895703
   Name: "Virtual Folders"
   PlatformAssetType: 30
   SerializationVersion: 118
@@ -25,6 +25,10 @@ Assets {
     }
     Folders {
       VirtualFolderPath: "Equipment"
+      PlatformAssetType: 3
+    }
+    Folders {
+      VirtualFolderPath: "Faction Selection"
       PlatformAssetType: 3
     }
   }
