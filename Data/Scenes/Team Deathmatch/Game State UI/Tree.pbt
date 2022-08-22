@@ -1,7 +1,7 @@
 Name: "Game State UI"
-RootId: 11252192043980355711
+RootId: 245424829392289518
 Objects {
-  Id: 17505666677898991512
+  Id: 2594200465701399913
   Name: "Game State Display"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11252192043980355711
-  ChildIds: 17433113371587375986
+  ParentId: 245424829392289518
+  ChildIds: 602455895561623811
   UnregisteredParameters {
     Overrides {
       Name: "cs:ShowStateName"
@@ -72,7 +72,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17433113371587375986
+  Id: 602455895561623811
   Name: "ClientContext"
   Transform {
     Location {
@@ -85,9 +85,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17505666677898991512
-  ChildIds: 10002007872329718446
-  ChildIds: 979005843687770613
+  ParentId: 2594200465701399913
+  ChildIds: 1633563825362630398
+  ChildIds: 6752532012217252505
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -113,7 +113,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 979005843687770613
+  Id: 6752532012217252505
   Name: "Container"
   Transform {
     Location {
@@ -126,8 +126,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17433113371587375986
-  ChildIds: 9312353824780353513
+  ParentId: 602455895561623811
+  ChildIds: 14299743541304984791
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -164,7 +164,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9312353824780353513
+  Id: 14299743541304984791
   Name: "UI Panel"
   Transform {
     Location {
@@ -177,9 +177,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 979005843687770613
-  ChildIds: 6840632942937510172
-  ChildIds: 644974106801493819
+  ParentId: 6752532012217252505
+  ChildIds: 8693937481368347869
+  ChildIds: 7302256762368872814
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -223,7 +223,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 644974106801493819
+  Id: 7302256762368872814
   Name: "State Time"
   Transform {
     Location {
@@ -236,7 +236,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9312353824780353513
+  ParentId: 14299743541304984791
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -299,7 +299,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6840632942937510172
+  Id: 8693937481368347869
   Name: "State Name"
   Transform {
     Location {
@@ -312,7 +312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9312353824780353513
+  ParentId: 14299743541304984791
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -377,7 +377,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10002007872329718446
+  Id: 1633563825362630398
   Name: "GameStateRoundTimeDisplayClient"
   Transform {
     Location {
@@ -390,7 +390,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17433113371587375986
+  ParentId: 602455895561623811
   UnregisteredParameters {
     Overrides {
       Name: "cs:API"
@@ -401,25 +401,25 @@ Objects {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 17505666677898991512
+        SelfId: 2594200465701399913
       }
     }
     Overrides {
       Name: "cs:Panel"
       ObjectReference {
-        SelfId: 9312353824780353513
+        SelfId: 14299743541304984791
       }
     }
     Overrides {
       Name: "cs:StateNameText"
       ObjectReference {
-        SelfId: 6840632942937510172
+        SelfId: 8693937481368347869
       }
     }
     Overrides {
       Name: "cs:StateTimeText"
       ObjectReference {
-        SelfId: 644974106801493819
+        SelfId: 7302256762368872814
       }
     }
   }
@@ -443,7 +443,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5438342057998111482
+  Id: 6626973358877927052
   Name: "Message Banner"
   Transform {
     Scale {
@@ -452,7 +452,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11252192043980355711
+  ParentId: 245424829392289518
   UnregisteredParameters {
   }
   Collidable_v2 {

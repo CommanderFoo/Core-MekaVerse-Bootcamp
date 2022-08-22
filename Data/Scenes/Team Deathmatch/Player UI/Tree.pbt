@@ -1,7 +1,7 @@
 Name: "Player UI"
-RootId: 5870212753556336589
+RootId: 8729317885662067212
 Objects {
-  Id: 8423789157862449939
+  Id: 2184809508220005033
   Name: "Nameplates"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5870212753556336589
+  ParentId: 8729317885662067212
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -45,7 +45,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12614073421529109765
+  Id: 16385297319670457953
   Name: "HealthBar"
   Transform {
     Scale {
@@ -54,7 +54,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5870212753556336589
+  ParentId: 8729317885662067212
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -104,7 +104,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15468163040640967331
+  Id: 13270136215635227123
   Name: "Damage Feedback"
   Transform {
     Scale {
@@ -113,7 +113,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5870212753556336589
+  ParentId: 8729317885662067212
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -163,7 +163,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11261003469852888925
+  Id: 9621232819648825881
   Name: "Kill Indicator Message"
   Transform {
     Location {
@@ -176,7 +176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5870212753556336589
+  ParentId: 8729317885662067212
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -218,7 +218,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15065208022793047349
+  Id: 14940322758438532064
   Name: "Kill Feed"
   Transform {
     Scale {
@@ -227,7 +227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5870212753556336589
+  ParentId: 8729317885662067212
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

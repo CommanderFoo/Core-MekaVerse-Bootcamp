@@ -1,7 +1,7 @@
 Name: "Map"
-RootId: 16820371051228452275
+RootId: 12298521329140522067
 Objects {
-  Id: 9762435763027468972
+  Id: 10780778737623147796
   Name: "Kill Zone"
   Transform {
     Location {
@@ -15,9 +15,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16820371051228452275
-  ChildIds: 5251128903082724334
-  ChildIds: 13646460064856895392
+  ParentId: 12298521329140522067
+  ChildIds: 10591410510625415141
+  ChildIds: 12459849464638361315
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,7 +38,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13646460064856895392
+  Id: 12459849464638361315
   Name: "KillZoneServer"
   Transform {
     Location {
@@ -52,12 +52,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9762435763027468972
+  ParentId: 10780778737623147796
   UnregisteredParameters {
     Overrides {
       Name: "cs:KillTrigger"
       ObjectReference {
-        SelfId: 5251128903082724334
+        SelfId: 10591410510625415141
       }
     }
   }
@@ -81,7 +81,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5251128903082724334
+  Id: 10591410510625415141
   Name: "KillTrigger"
   Transform {
     Location {
@@ -94,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9762435763027468972
+  ParentId: 10780778737623147796
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -125,114 +125,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11193489300835456229
-  Name: "Wall"
-  Transform {
-    Location {
-      X: -200
-      Y: -200
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16820371051228452275
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Wall"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9232341895289291021
-  Name: "Ground"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16820371051228452275
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Ground"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5860419314988708994
-  Name: "Environment"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16820371051228452275
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Environment"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 5149132116719906845
+  Id: 6658595393849880609
   Name: "Team Base 2"
   Transform {
     Location {
@@ -246,7 +139,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16820371051228452275
+  ParentId: 12298521329140522067
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -268,7 +161,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15896181879123416760
+  Id: 2275710096578553031
   Name: "Team Base 1"
   Transform {
     Location {
@@ -282,7 +175,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16820371051228452275
+  ParentId: 12298521329140522067
   UnregisteredParameters {
   }
   Collidable_v2 {

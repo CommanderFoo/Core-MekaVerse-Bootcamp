@@ -1,7 +1,7 @@
 Name: "Bindings"
-RootId: 14971980012459676701
+RootId: 9172136718089996352
 Objects {
-  Id: 1208690011817797755
+  Id: 9431863258471546209
   Name: "ClientContext"
   Transform {
     Location {
@@ -14,9 +14,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14971980012459676701
-  ChildIds: 752426582880836002
-  ChildIds: 1887360041564367461
+  ParentId: 9172136718089996352
+  ChildIds: 994158328148547802
+  ChildIds: 1826676182417339235
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -46,7 +46,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1887360041564367461
+  Id: 1826676182417339235
   Name: "Touch"
   Transform {
     Location {
@@ -59,9 +59,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1208690011817797755
-  ChildIds: 6546674936503380589
-  ChildIds: 17535214466382942506
+  ParentId: 9431863258471546209
+  ChildIds: 2809539088962481306
+  ChildIds: 15475327210992185342
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -83,7 +83,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17535214466382942506
+  Id: 15475327210992185342
   Name: "Touch Container"
   Transform {
     Location {
@@ -96,12 +96,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1887360041564367461
-  ChildIds: 10417200828319188204
-  ChildIds: 3428176621748425269
-  ChildIds: 312807974141183544
-  ChildIds: 11298183018803889726
-  ChildIds: 11308073109392693642
+  ParentId: 1826676182417339235
+  ChildIds: 3370556581040540524
+  ChildIds: 4743126794978150037
+  ChildIds: 13546991188940383244
+  ChildIds: 11641016463623490188
+  ChildIds: 11749056201381875170
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -149,7 +149,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11308073109392693642
+  Id: 11749056201381875170
   Name: "Scoreboard Button"
   Transform {
     Location {
@@ -162,8 +162,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17535214466382942506
-  ChildIds: 9802581498630995330
+  ParentId: 15475327210992185342
+  ChildIds: 13861362610881833483
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -245,7 +245,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9802581498630995330
+  Id: 13861362610881833483
   Name: "Button Icon"
   Transform {
     Location {
@@ -258,7 +258,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11308073109392693642
+  ParentId: 11749056201381875170
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -317,7 +317,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11298183018803889726
+  Id: 11641016463623490188
   Name: "Crouch Button"
   Transform {
     Location {
@@ -330,8 +330,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17535214466382942506
-  ChildIds: 4014977700787433497
+  ParentId: 15475327210992185342
+  ChildIds: 17440557463555681687
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -413,7 +413,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4014977700787433497
+  Id: 17440557463555681687
   Name: "Button Icon"
   Transform {
     Location {
@@ -426,7 +426,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11298183018803889726
+  ParentId: 11641016463623490188
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -485,7 +485,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 312807974141183544
+  Id: 13546991188940383244
   Name: "Jump Button"
   Transform {
     Location {
@@ -498,8 +498,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17535214466382942506
-  ChildIds: 3372880122831960499
+  ParentId: 15475327210992185342
+  ChildIds: 14755812769266832095
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -581,7 +581,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3372880122831960499
+  Id: 14755812769266832095
   Name: "Button Icon"
   Transform {
     Location {
@@ -594,7 +594,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 312807974141183544
+  ParentId: 13546991188940383244
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -653,7 +653,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3428176621748425269
+  Id: 4743126794978150037
   Name: "Reload Button"
   Transform {
     Location {
@@ -666,8 +666,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17535214466382942506
-  ChildIds: 4257264590185707128
+  ParentId: 15475327210992185342
+  ChildIds: 5345854037086271722
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -749,7 +749,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 4257264590185707128
+  Id: 5345854037086271722
   Name: "Button Icon"
   Transform {
     Location {
@@ -762,7 +762,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3428176621748425269
+  ParentId: 4743126794978150037
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -821,7 +821,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10417200828319188204
+  Id: 3370556581040540524
   Name: "Shoot Panel"
   Transform {
     Location {
@@ -834,10 +834,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17535214466382942506
-  ChildIds: 18374151762371940895
-  ChildIds: 9477767230857016715
-  ChildIds: 14755915498865640254
+  ParentId: 15475327210992185342
+  ChildIds: 8093330227509747891
+  ChildIds: 8648086635927790417
+  ChildIds: 12651365496759653060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -881,7 +881,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14755915498865640254
+  Id: 12651365496759653060
   Name: "Shoot Button"
   Transform {
     Location {
@@ -894,8 +894,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10417200828319188204
-  ChildIds: 11614352080737358079
+  ParentId: 3370556581040540524
+  ChildIds: 10836658653450180178
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -975,7 +975,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11614352080737358079
+  Id: 10836658653450180178
   Name: "Button Icon"
   Transform {
     Location {
@@ -988,7 +988,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14755915498865640254
+  ParentId: 12651365496759653060
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1047,7 +1047,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9477767230857016715
+  Id: 8648086635927790417
   Name: "InputVectorButtonClient"
   Transform {
     Location {
@@ -1060,18 +1060,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10417200828319188204
+  ParentId: 3370556581040540524
   UnregisteredParameters {
     Overrides {
       Name: "cs:Background"
       ObjectReference {
-        SelfId: 18374151762371940895
+        SelfId: 8093330227509747891
       }
     }
     Overrides {
       Name: "cs:Button"
       ObjectReference {
-        SelfId: 14755915498865640254
+        SelfId: 12651365496759653060
       }
     }
     Overrides {
@@ -1138,7 +1138,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18374151762371940895
+  Id: 8093330227509747891
   Name: "Background"
   Transform {
     Location {
@@ -1151,7 +1151,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10417200828319188204
+  ParentId: 3370556581040540524
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1204,7 +1204,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 6546674936503380589
+  Id: 2809539088962481306
   Name: "InputObjectToggleClient"
   Transform {
     Location {
@@ -1217,12 +1217,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1887360041564367461
+  ParentId: 1826676182417339235
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 1887360041564367461
+        SelfId: 1826676182417339235
       }
     }
     Overrides {
@@ -1261,7 +1261,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 752426582880836002
+  Id: 994158328148547802
   Name: "Keyboard and Controller"
   Transform {
     Location {
@@ -1274,10 +1274,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1208690011817797755
-  ChildIds: 17045879931745394987
-  ChildIds: 16000336855420112062
-  ChildIds: 7067726957393991904
+  ParentId: 9431863258471546209
+  ChildIds: 2584365571679007519
+  ChildIds: 15178425919474583010
+  ChildIds: 18004674206173645711
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1299,7 +1299,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 7067726957393991904
+  Id: 18004674206173645711
   Name: "Bindings Display"
   Transform {
     Scale {
@@ -1308,7 +1308,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 752426582880836002
+  ParentId: 994158328148547802
   TemplateInstance {
     ParameterOverrideMap {
       key: 3505618336313181381
@@ -1369,7 +1369,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16000336855420112062
+  Id: 15178425919474583010
   Name: "Abilities Display"
   Transform {
     Scale {
@@ -1378,7 +1378,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 752426582880836002
+  ParentId: 994158328148547802
   TemplateInstance {
     ParameterOverrideMap {
       key: 3045094969628912719
@@ -1406,7 +1406,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 17045879931745394987
+  Id: 2584365571679007519
   Name: "InputObjectToggleClient"
   Transform {
     Location {
@@ -1419,12 +1419,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 752426582880836002
+  ParentId: 994158328148547802
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 752426582880836002
+        SelfId: 994158328148547802
       }
     }
     Overrides {

@@ -1,7 +1,7 @@
 Name: "Score UI"
-RootId: 12110900773048709001
+RootId: 14548647426695153056
 Objects {
-  Id: 17389049674868137646
+  Id: 6660869419606677216
   Name: "Team 2 Score UI"
   Transform {
     Location {
@@ -14,8 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12110900773048709001
-  ChildIds: 12940740613516876698
+  ParentId: 14548647426695153056
+  ChildIds: 9380092219276591223
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -31,7 +31,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 10
+      Int: 3
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -68,7 +68,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12940740613516876698
+  Id: 9380092219276591223
   Name: "ClientContext"
   Transform {
     Location {
@@ -81,9 +81,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17389049674868137646
-  ChildIds: 14447728212677681852
-  ChildIds: 13671040761153761331
+  ParentId: 6660869419606677216
+  ChildIds: 9560895269240555282
+  ChildIds: 978291844761120672
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -109,7 +109,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13671040761153761331
+  Id: 978291844761120672
   Name: "TeamScoreContainer"
   Transform {
     Location {
@@ -122,8 +122,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12940740613516876698
-  ChildIds: 16804728286867370201
+  ParentId: 9380092219276591223
+  ChildIds: 11671963103715104777
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -172,7 +172,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 16804728286867370201
+  Id: 11671963103715104777
   Name: "Panel"
   Transform {
     Location {
@@ -185,9 +185,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13671040761153761331
-  ChildIds: 15256883715854650823
-  ChildIds: 10162561651723080466
+  ParentId: 978291844761120672
+  ChildIds: 8786434024099636135
+  ChildIds: 11705387940720451716
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -233,7 +233,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10162561651723080466
+  Id: 11705387940720451716
   Name: "Text Box"
   Transform {
     Location {
@@ -246,7 +246,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16804728286867370201
+  ParentId: 11671963103715104777
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -301,7 +301,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15256883715854650823
+  Id: 8786434024099636135
   Name: "BackgroundImage"
   Transform {
     Location {
@@ -314,7 +314,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16804728286867370201
+  ParentId: 11671963103715104777
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -368,7 +368,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14447728212677681852
+  Id: 9560895269240555282
   Name: "TeamScoreUI"
   Transform {
     Location {
@@ -381,18 +381,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12940740613516876698
+  ParentId: 9380092219276591223
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 17389049674868137646
+        SelfId: 6660869419606677216
       }
     }
     Overrides {
       Name: "cs:TextBox"
       ObjectReference {
-        SelfId: 10162561651723080466
+        SelfId: 11705387940720451716
       }
     }
   }
@@ -416,7 +416,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 14532197238373577337
+  Id: 14093868606448311938
   Name: "Team 1 Score UI"
   Transform {
     Location {
@@ -429,8 +429,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12110900773048709001
-  ChildIds: 1582033955761497025
+  ParentId: 14548647426695153056
+  ChildIds: 9938542921958060846
   UnregisteredParameters {
     Overrides {
       Name: "cs:Team"
@@ -446,7 +446,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MaxScore"
-      Int: 10
+      Int: 3
     }
     Overrides {
       Name: "cs:Team:tooltip"
@@ -483,7 +483,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1582033955761497025
+  Id: 9938542921958060846
   Name: "ClientContext"
   Transform {
     Location {
@@ -496,9 +496,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14532197238373577337
-  ChildIds: 3291754465717595444
-  ChildIds: 9794857094330243573
+  ParentId: 14093868606448311938
+  ChildIds: 15539397765256528586
+  ChildIds: 12782584402937224975
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -524,7 +524,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 9794857094330243573
+  Id: 12782584402937224975
   Name: "TeamScoreContainer"
   Transform {
     Location {
@@ -537,8 +537,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1582033955761497025
-  ChildIds: 366606631166854586
+  ParentId: 9938542921958060846
+  ChildIds: 12689451243085922019
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -587,7 +587,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 366606631166854586
+  Id: 12689451243085922019
   Name: "Panel"
   Transform {
     Location {
@@ -600,9 +600,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9794857094330243573
-  ChildIds: 2505242960498470048
-  ChildIds: 10643460862308587913
+  ParentId: 12782584402937224975
+  ChildIds: 4938681788064647546
+  ChildIds: 11023214427346268889
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -648,7 +648,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10643460862308587913
+  Id: 11023214427346268889
   Name: "Text Box"
   Transform {
     Location {
@@ -661,7 +661,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 366606631166854586
+  ParentId: 12689451243085922019
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -716,7 +716,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 2505242960498470048
+  Id: 4938681788064647546
   Name: "BackgroundImage"
   Transform {
     Location {
@@ -729,7 +729,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 366606631166854586
+  ParentId: 12689451243085922019
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -783,7 +783,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 3291754465717595444
+  Id: 15539397765256528586
   Name: "TeamScoreUI"
   Transform {
     Location {
@@ -796,18 +796,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1582033955761497025
+  ParentId: 9938542921958060846
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 14532197238373577337
+        SelfId: 14093868606448311938
       }
     }
     Overrides {
       Name: "cs:TextBox"
       ObjectReference {
-        SelfId: 10643460862308587913
+        SelfId: 11023214427346268889
       }
     }
   }
@@ -831,7 +831,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 1103977932118204245
+  Id: 10146441497656450612
   Name: "Scoreboard"
   Transform {
     Scale {
@@ -840,7 +840,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12110900773048709001
+  ParentId: 14548647426695153056
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

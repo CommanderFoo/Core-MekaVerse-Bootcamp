@@ -1,7 +1,7 @@
 Name: "Team Base 1"
-RootId: 15896181879123416760
+RootId: 2275710096578553031
 Objects {
-  Id: 15612088385734990962
+  Id: 15334972063201635514
   Name: "Lobby"
   Transform {
     Location {
@@ -16,7 +16,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15896181879123416760
+  ParentId: 2275710096578553031
   UnregisteredParameters {
   }
   Collidable_v2 {

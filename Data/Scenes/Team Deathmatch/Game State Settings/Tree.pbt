@@ -1,7 +1,7 @@
 Name: "Game State Settings"
-RootId: 15141471569158930275
+RootId: 17654598553065758903
 Objects {
-  Id: 12096548604345613606
+  Id: 3782254499339302567
   Name: "Round End Manager"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -47,7 +47,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18157639253496144883
+  Id: 507984153013333802
   Name: "Victory Announcer"
   Transform {
     Scale {
@@ -56,7 +56,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -106,7 +106,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 13500059095782369388
+  Id: 3078975731629024454
   Name: "Lobby Start Respawn Players"
   Transform {
     Scale {
@@ -115,7 +115,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -167,7 +167,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15017817376733921322
+  Id: 10880936019919785885
   Name: "Lobby Required Players_1"
   Transform {
     Scale {
@@ -176,7 +176,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -215,7 +215,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15516311265296432982
+  Id: 1318085590357487624
   Name: "Game State Message"
   Transform {
     Scale {
@@ -224,7 +224,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -257,7 +257,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17294278082270298794
+  Id: 15147404902667367386
   Name: "Basic Game State Manager"
   Transform {
     Scale {
@@ -266,7 +266,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15141471569158930275
+  ParentId: 17654598553065758903
   UnregisteredParameters {
   }
   Collidable_v2 {

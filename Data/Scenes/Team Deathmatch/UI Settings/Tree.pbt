@@ -1,7 +1,7 @@
 Name: "UI Settings"
-RootId: 18156160529695938358
+RootId: 410250484957622395
 Objects {
-  Id: 14971980012459676701
+  Id: 9172136718089996352
   Name: "Bindings"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18156160529695938358
+  ParentId: 410250484957622395
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,7 +36,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 12110900773048709001
+  Id: 14548647426695153056
   Name: "Score UI"
   Transform {
     Location {
@@ -49,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18156160529695938358
+  ParentId: 410250484957622395
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -71,7 +71,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 5870212753556336589
+  Id: 8729317885662067212
   Name: "Player UI"
   Transform {
     Location {
@@ -84,7 +84,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18156160529695938358
+  ParentId: 410250484957622395
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -106,7 +106,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 11252192043980355711
+  Id: 245424829392289518
   Name: "Game State UI"
   Transform {
     Location {
@@ -119,7 +119,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18156160529695938358
+  ParentId: 410250484957622395
   UnregisteredParameters {
   }
   Collidable_v2 {

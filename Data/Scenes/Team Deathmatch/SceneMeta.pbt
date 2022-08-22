@@ -1,4 +1,5 @@
 SceneName: "Team Deathmatch"
-SceneId: "c573f79543db6eddbb043ebedc8e3f29"
-SceneCreationDateTime: 637964159872470000
+SceneId: "730592eb4c7012d614dfdfabbc85bb82"
+SceneCreationDateTime: 637967658483140000
+IncludeForPublish: true
 MaxPlayers: 4

@@ -1,7 +1,7 @@
 Name: "Lobby"
-RootId: 4416310816788935890
+RootId: 18006475233335850041
 Objects {
-  Id: 13347521865308531208
+  Id: 9689960764038138478
   Name: "Spawn Points"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4416310816788935890
+  ParentId: 18006475233335850041
   UnregisteredParameters {
   }
   Collidable_v2 {
